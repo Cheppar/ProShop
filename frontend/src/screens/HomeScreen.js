@@ -7,7 +7,7 @@ import Loader from '../components/Loader';
 
 import { useDispatch, useSelector } from 'react-redux';
 import { listProducts } from '../actions/productActions';
-import { productListReducer } from '../reducers/productReducers';
+// import { productListReducer } from '../reducers/productReducers';
 
 const HomeScreen = () => {
   const dispatch = useDispatch();
